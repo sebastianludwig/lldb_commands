@@ -8,27 +8,27 @@ def lldbcommands():
   return [ 
     InsetHighlightCommand(
       name='hsafearea',
-      description='TODO',
+      description='Highlight the safe area insets of a given view',
       help='The view whose safe area to highlight',
       selector='safeAreaInsets',
       defaultColor='red'
     ),
     InsetUnHighlightCommand(
       name='unhsafearea',
-      description='TODO',
+      description='Remove the safe area inset highlight on a view',
       help='The view whose safe area highlight will be removed',
       selector='safeAreaInsets'
     ),
     InsetHighlightCommand(
       name='hlayoutmargins',
-      description='TODO',
+      description='Highlight the layout margins of a given view',
       help='The view whose layout margins to highlighted',
       selector='layoutMargins',
       defaultColor='blue'
     ),
     InsetUnHighlightCommand(
       name='unhlayoutmargins',
-      description='TODO',
+      description='Remove the layout margin highlight on a view',
       help='The view whose layout margin highlight will be removed',
       selector='layoutMargins'
     ),
