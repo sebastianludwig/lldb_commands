@@ -1,3 +1,7 @@
+# ⚠️ Archived
+
+Lives on over here https://github.com/lurado/LLDO
+
 # LLDB commands to make my life easier
 
 Based on [Chisel](https://github.com/facebook/chisel)
